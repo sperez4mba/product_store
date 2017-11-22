@@ -15,9 +15,12 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api/', include('product_store.api.v1.urls')),
     url(r'^silk/', include('silk.urls', namespace='silk')),
 ]
+
+urlpatterns += staticfiles_urlpatterns()

@@ -4,7 +4,7 @@ from products.models import Category
 
 
 class Command(BaseCommand):
-    help = 'Create seed data for the product store api'
+    help = 'Seed category data for the product store api'
 
     def add_arguments(self, parser):
         parser.add_argument(
