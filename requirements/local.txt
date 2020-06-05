@@ -4,7 +4,7 @@ bpython==0.16
 certifi==2017.11.5
 chardet==3.0.4
 curtsies==0.2.11
-Django==1.11.7
+Django==1.11.29
 django-silk==1.0.0
 djangorestframework==3.7.3
 factory-boy==2.9.2
