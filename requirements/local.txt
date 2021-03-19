@@ -6,7 +6,7 @@ chardet==3.0.4
 curtsies==0.2.11
 Django==1.11.7
 django-silk==1.0.0
-djangorestframework==3.7.3
+djangorestframework==3.11.2
 factory-boy==2.9.2
 Faker==0.8.7
 greenlet==0.4.12
